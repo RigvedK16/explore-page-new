@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - Portfolio Portal</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="header">
+        <h3>Explore trending projects and discover standout portfolios from talented creators!</h3>
+        <div class="header2">
+            <!-- <span class="fa-brands fa-node-js fa-10x" style="color:#84BF08"></span> -->
+            <h2>
+                Trending<br>
+                Projects
+            </h2>
+        </div>
+    </div>
+    <div class="explore-container">
+        <div class="profiles-grid">
+            <div class="profile-card" onclick="goToProfile('user1.html')">
+                <div class="profile-image">
+                    <img src="https://picsum.photos/id/396/200/300" alt="User 1">
+                </div>
+                <h2>Rohan Kumar</h2>
+                <p>Svelte <br>Web Development</p>
+                <div class="profile-media-icons">
+                    <!-- <span class="fa-brands fa-twitter fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fab fa-linkedin fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fa-brands fa-discord fa-xl" style="color:#7289da"><a href="#d"></a></span> -->
+                </div>
+                <button onclick="goToProfile('user2.html')"
+                    style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; padding:1vw;">View
+                    Profile</button>
+            </div>
+            <div class="profile-card" onclick="goToProfile('user2.html')">
+                <div class="profile-image">
+                    <img src="https://picsum.photos/id/395/200/300" alt="User 2">
+                </div>
+                <h2>Arjun Singh</h2>
+                <p>LangChain <br>AI/Development Framework</p>
+                <div class="profile-media-icons">
+                    <!-- <span class="fa-brands fa-twitter fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fab fa-linkedin fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fa-brands fa-discord fa-xl" style="color:#7289da"><a href="#d"></a></span> -->
+                </div>
+                <button onclick="goToProfile('user2.html')"
+                    style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; padding:1vw;">View
+                    Profile</button>
+            </div>
+            <div class="profile-card" onclick="goToProfile('user3.html')">
+                <div class="profile-image">
+                    <img src="https://picsum.photos/id/392/200/300" alt="User 3">
+                </div>
+                <h2>Vansh Pandey</h2>
+                <p>Penpot <br>Design/Prototyping</p>
+                <div class="profile-media-icons">
+                    <!-- <span class="fa-brands fa-twitter fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fab fa-linkedin fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fa-brands fa-discord fa-xl" style="color:#7289da"><a href="#d"></a></span> -->
+                </div>
+                <button onclick="goToProfile('user2.html')"
+                    style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; padding:1vw;">View
+                    Profile</button>
+            </div>
+            <div class="profile-card" onclick="goToProfile('user2.html')">
+                <div class="profile-image">
+                    <img src="https://picsum.photos/id/391/200/300" alt="User 4">
+                </div>
+                <h2>Akash Sharma</h2>
+                <p>OpenBB Terminal <br>Finance/Investment</p>
+                <div class="profile-media-icons">
+                    <!-- <span class="fa-brands fa-twitter fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fab fa-linkedin fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fa-brands fa-discord fa-xl" style="color:#7289da"><a href="#d"></a></span> -->
+                </div>
+                <button onclick="goToProfile('user2.html')"
+                    style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; padding:1vw;">View
+                    Profile</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function goToProfile(profileUrl) {
+            window.location.href = profileUrl;
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/3a0ed13cde.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
